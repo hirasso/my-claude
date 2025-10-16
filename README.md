@@ -28,4 +28,4 @@ cd /path/to/my-claude
 claude  # Preferences auto-loaded
 ```
 
-Alternatively, you can make the instructions global by telling claude to do so (copy these instructions to `~/.claude/CLAUDE.md`).
+You can make the instructions global by copying them to to `~/.claude/CLAUDE.md`.
