@@ -1,6 +1,6 @@
 # My Claude Config
 
-Personal configuration repo for Claude Code CLI with persistent development preferences.
+Personal configuration repo for [Claude Code CLI](https://www.claude.com/product/claude-code) with persistent development preferences.
 
 ## What is this?
 
@@ -27,3 +27,5 @@ See [CLAUDE.md](CLAUDE.md):
 cd /path/to/my-claude
 claude  # Preferences auto-loaded
 ```
+
+Alternatively, you can make the instructions global by telling claude to do so (copy these instructions to `~/.claude/CLAUDE.md`).
