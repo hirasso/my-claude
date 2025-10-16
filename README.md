@@ -23,9 +23,15 @@ See [CLAUDE.md](CLAUDE.md):
 
 ## Usage
 
+Navigate to the cloned repo and start claude:
+
 ```bash
 cd /path/to/my-claude
 claude  # Preferences auto-loaded
 ```
 
-You can make the instructions global by copying them to to `~/.claude/CLAUDE.md`.
+Make the instructions global on your machine:
+
+```bash
+ln -s /path/to/my-claude/CLAUDE.md ~/.claude/CLAUDE.md
+```
