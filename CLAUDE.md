@@ -39,6 +39,10 @@
 - "allow in nono …", "let nono …", "nono should permit …" etc. = draft a profile change, don't work around it
 - Follow `~/.config/nono/AGENTS.md`: edit `profiles/claude.json` → draft `profile-drafts/claude.json` + SHA-256 of current file in `profile-drafts/claude.base`, then print promote command
 
+## nono sandbox: git
+- Always push/pull via HTTPS (SSH is blocked), using gh credentials without changing the remote:
+  `git -c credential.helper='!gh auth git-credential' push https://github.com/<owner>/<repo>.git <branch>`
+
 ## nono sandbox: browsers / Playwright
 - Chromium ignores HTTPS_PROXY; under nono it must use the proxy explicitly, else net::ERR_ACCESS_DENIED:
   ```js
