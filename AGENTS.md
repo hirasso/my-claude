@@ -12,6 +12,7 @@
   - Best practices
   - JS/TS: ES modules
   - PHP: 8.4
+- Shell scripts / tooling: use bash, not python (I can't read python)
 
 ## Development Workflow
 - Never modify working code without explicit permission
@@ -52,3 +53,8 @@
   ```
 - Playwright MCP / CLI: pass same proxy server + credentials
 - DDEV sites use ports 8080/8443 (e.g. `https://<project>.ddev.site:8443`)
+
+## nono sandbox: /ide (VS Code)
+- CLI checks IDE lock pid with `kill(pid, 0)`; nono's default `signal_mode: isolated` blocks it → CLI deletes `~/.claude/ide/*.lock` as stale
+- Fix lives in `profiles/claude.json`: `"(allow signal (signal-number 0))"` in `unsafe_macos_seatbelt_rules`
+- If `/ide` breaks after VS Code restart: check `~/.claude/ide/` has lock files (else "Developer: Reload Window") and that terminal's `CLAUDE_CODE_SSE_PORT` isn't stale (open new terminal)

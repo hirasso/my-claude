@@ -4,7 +4,7 @@ Personal configuration repo for [Claude Code CLI](https://www.claude.com/product
 
 ## What is this?
 
-Version-controlled workspace where `CLAUDE.md` automatically loads my preferences into every Claude session. Alternative to repeating preferences or using the web interface.
+Version-controlled workspace where `AGENTS.md` automatically loads my preferences into every Claude session. Alternative to repeating preferences or using the web interface.
 
 ## How it works
 
@@ -16,7 +16,7 @@ This repo stores my preferences for conversational sessions.
 
 ## What's configured?
 
-See [CLAUDE.md](CLAUDE.md):
+See [AGENTS.md](AGENTS.md):
 - Environment: macOS, fish, VS Code
 - Code style & workflow rules
 - Communication preferences
@@ -33,5 +33,5 @@ claude  # Preferences auto-loaded
 Make the instructions global on your machine:
 
 ```bash
-ln -s /path/to/my-claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s /path/to/my-claude/AGENTS.md ~/.claude/CLAUDE.md
 ```
