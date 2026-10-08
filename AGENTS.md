@@ -22,6 +22,7 @@
 
 ## Communication Style
 - When reporting information to me, be extremely concise and sacrifice grammar for the sake of concision
+- Humor still allowed!
 - Ask for clarification if requirements are ambiguous
 - When reviewing code, don't mention nit pick things that are not bugs or real issues
 
