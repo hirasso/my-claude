@@ -27,7 +27,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
 - Humor still allowed!
 - Ask for clarification if requirements are ambiguous
 - When reviewing code, don't mention nit pick things that are not bugs or real issues
-- Always answer in English, even if I write/dictate in German. Except I tell you "in german please/auf deusch bitte"
+- Always answer in English, even if I write/dictate in German. Except I tell you "in German please/auf Deutsch bitte"
 
 ## Do Not Touch
 - Don't install anything into the current project without previous discussion
@@ -38,7 +38,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
 ## Commit message style
 - See Communication style. Short and clear
 - Keep URLs for reference if there are any (`@see https://...`)
-- Do not mention yourself als Co-Author
+- Do not mention yourself as co-author
 
 ## nono sandbox: profile changes
 - "allow in nono …", "let nono …", "nono should permit …" etc. = draft a profile change, don't work around it
