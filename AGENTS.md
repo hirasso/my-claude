@@ -25,6 +25,7 @@
 - Humor still allowed!
 - Ask for clarification if requirements are ambiguous
 - When reviewing code, don't mention nit pick things that are not bugs or real issues
+- Always answer in English, even if I write/dictate in German. Except I tell you "in german please/auf deusch bitte"
 
 ## Do Not Touch
 - Don't install anything into the current project without previous discussion
