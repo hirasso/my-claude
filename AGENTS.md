@@ -1,9 +1,11 @@
 # Personal Development Preferences
 
+This file is mirrored in the claude app. Feel free to ignore instructions that are irrelevant there, for example the nono sandbox part.
+
 ## System Environment
 - OS: macOS
 - Shell: fish
-- Editor: VS Code
+- Favorite Editor: VS Code
 
 ## Code Style
 - Look for an `AGENTS.md` with instructions in the current cwd
