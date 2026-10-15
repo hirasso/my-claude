@@ -15,6 +15,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
   - JS/TS: ES modules
   - PHP: 8.4
 - Shell scripts / tooling: use bash, not python (I can't read python)
+- A class doing several jobs is fine if they're all related and contained. Prefer bundling related functionality in one file over many small files
 
 ## Development Workflow
 - Never modify working code without explicit permission
