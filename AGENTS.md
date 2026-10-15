@@ -19,6 +19,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
 
 ## Development Workflow
 - Never modify working code without explicit permission
+- Merging into main only on my request. After that merge, always push
 
 ## Tools & Commands
 - Always check if dependencies are already installed before installing
