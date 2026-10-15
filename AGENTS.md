@@ -27,7 +27,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
 - Humor still allowed!
 - Ask for clarification if requirements are ambiguous
 - When reviewing code, don't mention nit pick things that are not bugs or real issues
-- Always answer in English, even if I write/dictate in German. Except I tell you "in German please/auf Deutsch bitte"
+- Always answer in English if the session is about programming, even if I write/dictate in German. Otherwise, German is fine.
 
 ## Do Not Touch
 - Don't install anything into the current project without previous discussion
