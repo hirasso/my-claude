@@ -23,6 +23,7 @@ This file is mirrored in the claude app. Feel free to ignore instructions that a
 
 ## Tools & Commands
 - Always check if dependencies are already installed before installing
+- Structural code search (call sites, patterns, "X without Y"): prefer `ast-grep` (`sg`) over grep when available. Use `--json` for compact output
 
 ## Communication Style
 - When reporting information to me, be extremely concise and sacrifice grammar for the sake of concision
